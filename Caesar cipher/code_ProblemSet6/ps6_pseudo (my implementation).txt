@@ -1,0 +1,12 @@
+=========================
+Problem 2: findBestShifts
+=========================
+
+1. initialize an empty dictionary where key=shift and value=maximum number of real English words using the corresponding shift in the key on the ciphertext
+
+2. for shift in range(0,26)
+    3. decipher the text with shift
+    4. check how many of the words in the decrypted text are present in the wordList
+    5. record the shift and the number of English words found in the dictionary
+    
+6. check for the shift key that corresponds to the maximum number of English words in 	the dictionary and return it
